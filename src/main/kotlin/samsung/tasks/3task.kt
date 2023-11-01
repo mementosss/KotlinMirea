@@ -1,13 +1,16 @@
+package samsung.tasks
+
+import java.util.*
+
 fun countVowels(str: String): Int {
     val vowels = listOf('a', 'e', 'i', 'o', 'u')
     var count = 0
 
-    for (char in str.toLowerCase()) {
+    for (char in str.lowercase(Locale.getDefault())) {
         if (char in vowels) {
             count++
         }
     }
-
     return count
 }
 

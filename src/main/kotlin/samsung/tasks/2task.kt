@@ -1,3 +1,5 @@
+package samsung.tasks
+
 fun main() {
     val dnaString = readlnOrNull()
     val counts = IntArray(4)

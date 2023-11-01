@@ -1,3 +1,5 @@
+package samsung.tasks
+
 enum class Direction {
     UP, DOWN, RIGHT, LEFT
 }

@@ -1,3 +1,5 @@
+package samsung.tasks
+
 fun main() {
     val input = readlnOrNull()?.split(" ")
     val a = input?.get(0)?.toDoubleOrNull()
